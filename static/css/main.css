@@ -1,3 +1,15 @@
 .erug-bg-body-tertiary {
     background-color: orange;
 }
+
+
+#about div.responsive-border {
+    border-right: none !important;
+    border-bottom: 1px solid #dee2e6 !important;
+}
+@media (min-width: 768px) {
+#about div.responsive-border {
+    border-right: 1px solid #dee2e6 !important;
+    border-bottom: none !important;
+}
+}
