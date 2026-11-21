@@ -1,7 +1,18 @@
-.erug-bg-body-tertiary {
-    background-color: orange;
+body {
+    background: #3401573d
 }
 
+.navbar {
+    padding: 0 0;
+}
+
+#header {
+    background: linear-gradient(#f20505, #340157);
+}
+
+#header a {
+    color: white;
+}
 
 #about div.responsive-border {
     border-right: none !important;
