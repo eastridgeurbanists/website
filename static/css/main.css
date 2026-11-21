@@ -1,15 +1,39 @@
-.erug-bg-body-tertiary {
-    background-color: orange;
+body {
+    background: #3401573d
 }
 
+.navbar {
+    padding: 0 0;
+}
+
+#header {
+    background: linear-gradient(#f20505, #340157);
+}
+
+#header a {
+    color: white;
+}
 
 #about div.responsive-border {
     border-right: none !important;
     border-bottom: 1px solid #dee2e6 !important;
 }
 @media (min-width: 768px) {
-#about div.responsive-border {
-    border-right: 1px solid #dee2e6 !important;
-    border-bottom: none !important;
+    #about div.responsive-border {
+        border-right: 1px solid #dee2e6 !important;
+        border-bottom: none !important;
+    }
+
+    .container {
+        max-width: 50%;
+    }
+
+    .wrapper ul {
+        width: 50%;
+        margin: auto;
+    }
 }
+
+footer {
+    background: #0000001A;
 }
