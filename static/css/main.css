@@ -19,8 +19,21 @@ body {
     border-bottom: 1px solid #dee2e6 !important;
 }
 @media (min-width: 768px) {
-#about div.responsive-border {
-    border-right: 1px solid #dee2e6 !important;
-    border-bottom: none !important;
+    #about div.responsive-border {
+        border-right: 1px solid #dee2e6 !important;
+        border-bottom: none !important;
+    }
+
+    .container {
+        max-width: 50%;
+    }
+
+    .wrapper ul {
+        width: 50%;
+        margin: auto;
+    }
 }
+
+footer {
+    background: #0000001A;
 }

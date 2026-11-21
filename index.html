@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="./static/css/main.css">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg bg-body-tertiary erug-bg-body-tertiary text-center">
-        <div class="container-fluid d-md-inline" id="header">
+        <div class="container-fluid d-md-inline p-1" id="header">
             <div class="row">
                 <div class="col-xs-12 col-md-8 text-md-start">
                     <div>
@@ -32,18 +32,20 @@
         </div>
     </nav>
     <section id="about">
-        <div class="container-fluid text-center">
+        <div class="container text-center">
             <div class="row">
-                <div class="col-xs-12 col-md-3 p-3 border-md-end border-md-bottom responsive-border">
-                    <h2 class="d-md-flex col-12 align-items-center text-center text-md-start">
+                <div class="col-xs-12 p-3">
+                    <h2 class="col-12 align-items-center text-center">
                         <span>About Us</span>
                     </h2>
                     <p class="col-12"><span>We are a non-partisan group of East Ridge residents seeking a better pattern of development our small city. We are a member-powered movement for change and believe that collective action through an informed citizenry is the key to building a better future.</span></p>
                 </div>
-                <div id="mission-statement" class="col-xs-12 col-md-9 p-2">
-                    <h3>Mission Statement</h3>
-                    <p>To create a more human-centric East Ridge by making community more accessible and facilitating civic engagement. We pioneer progress via direct action in:</p>
-                    <div class="text-start">
+                <div id="mission-statement" class="col-xs-12 p-3">
+                    <h2>Mission Statement</h2>
+                    <div>
+                        <p><span>To create a more human-centric East Ridge by making community more accessible and facilitating civic engagement. We pioneer progress via direct action in:</span></p>
+                    </div>
+                    <div class="wrapper">
                         <ul>
                             <li>Transportation</li>
                             <li>Urban Agriculture / Food Security</li>
@@ -56,18 +58,17 @@
         </div>
     </section>
     <section id="meetings">
-        <div class="container-fluid text-center">
-            <div class="row">
-                <h2 class="col-12">Join us for our monthly meetings!</h2>
-                <ul class="col-12">
-                    <li class="row"><span class="question col-4 text-end"><strong>When?</strong></span><span class="answer col-8 text-start">3rd Saturday of each month at 9:30 AM</span></li>
-                    <li class="row"><span class="question col-4 text-end"><strong>Where?</strong></span><span class="answer col-8 text-start"><a href="https://cafedelsurchatt.com/">Cafe del Sur</a></span></li>
-                </ul>
-            </div>
+        <div class="container text-center">
+            <h2>Join us for our monthly meetings!</h2>
+            <ul>
+                <li class="row"><span class="question col-3 col-md-4 text-end"><strong>When?</strong></span><span class="answer col-9 col-md-8 text-start">3rd Saturday of each month at 9:30 AM</span></li>
+                <li class="row"><span class="question col-3 col-md-4 text-end"></span><span class="answer col-9 col-md-8 text-start"><strong>❄️No Meeting for December, 2026!❄️</strong></span></li>
+                <li class="row"><span class="question col-3 col-md-4 text-end"><strong>Where?</strong></span><span class="answer col-9 col-md-8 text-start"><a href="https://cafedelsurchatt.com/">Cafe del Sur</a></span></li>
+            </ul>
         </div>
     </section>
-    <footer class="footer mt-auto py-3 bg-light fixed-bottom">
-        <div class="container text-center">
+    <footer class="footer mt-auto py-3">
+        <div class="text-center">
             <p class="mb-0 text-body-secondary">© 2026 | East Ridge Urbanist Group</p>
         </div>
     </footer>
